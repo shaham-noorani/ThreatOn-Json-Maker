@@ -1,0 +1,25 @@
+{
+  "name": "sim-maker",
+  "version": "1.0.0",
+  "description": "Create json simulations",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Shaham Noorani",
+  "license": "",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "jsonfile": "^4.0.0",
+    "uuid": "^3.3.2"
+  }
+}

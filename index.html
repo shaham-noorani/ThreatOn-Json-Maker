@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        header {
+           background-color: #54595E;
+        }
+        </style>
+    <header>
+        <a href="https://www.threatcare.com">
+           <img src="ThreatcareLogo.PNG" alt="Threatcare Logo">
+        </a>
+       </header>
+  <head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Simulation Maker</title>
+  </head>
+  <body>
+    <h1>Create a Simulation</h1>
+     <!--Simulation Name-->
+    <form id="simNameForm">
+      Simulation Name: <input type="text"><br>
+    </form>
+    <br>
+    <!--Author-->
+    <form id="authorForm" onsubmit="setAuthor()">
+      Author: <input type="text"><br>
+    </form>
+    <br>
+     <!--Link-->
+    <form id="linkForm" onsubmit="setLink()">
+      Link: <input type="text"><br>
+    </form>
+    <br>
+     <!--Short Description-->
+     <form id="shortForm" onsubmit="setShort()">
+      Short Description: <input type="text"><br>
+    </form>
+    <br>
+     <!--Long Description-->
+     <form id="longForm" onsubmit="setLong()">
+      Long Description: <input type="text"><br>
+    </form>
+    <br>
+     <!--Linux-->
+     <form id="linuxForm" onsubmit="setLiux()">
+      Linux: <input type="text"><br>
+    </form>
+    <br>
+     <!--Darwin-->
+     <form id="darwinForm" onsubmit="setDarwin()">
+      Darwin: <input type="text"><br>
+    </form>
+    <br>
+     <!--Windows-->
+     <form id="windowsForm" onsubmit="setWindows()">
+      Windows: <input type="text"><br>
+    </form>
+    <br>
+     <!--Type-->
+     <form id="typeForm" onsubmit="setType()">
+      Type: <input type="text"><br>
+    </form>
+    <br>
+     <!--Commands-->
+     <form id="cmdsForm" onsubmit="setCmds()">
+      Commands: <input type="text"><br>
+    </form>
+    <br>
+     <!--Payload-->
+     <form id="payloadForm" onsubmit="setPayload()">
+      Payload: <input type="text"><br>
+    </form>
+    <br>
+    <!--Mitre-->
+    <form id="mitre1Form" onsubmit="setMitre()">
+      Mitre Link: <input type="text"><br>
+    </form>
+    <br>
+    <form id="mitre2Form" onsubmit="setMitre()">
+      Mitre Tactic: <input type="text"><br>
+    </form>
+    <br>
+    <form id="mitre3Form" onsubmit="setMitre()">
+      Mitre Technique_ID: <input type="text"><br>
+    </form>
+    <br>
+    <form id="mitre4Form" onsubmit="setMitre()">
+      Mitre Technique: <input type="text"><br>
+    </form>
+    <br>
+    <button onclick="bang()";>Enter</button>
+    <button onclick="makeJson()";>Make the JSON</button>
+  </body>
+  <script src="index.js"></script>
+</html>
