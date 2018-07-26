@@ -11,7 +11,7 @@ The files are named using a UUID (Universal Unique Identifier). These numbers id
 UUIDs can be found/generated here: https://www.uuidgenerator.net/version4
 
 # Example of Correctly Formatted Simulation
-\{
+\{  
   \"active": true,  
   \"author": "Shaham Noorani",  
   \"name": "Remote System Discovery - Ping",  
