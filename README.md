@@ -10,7 +10,7 @@ The files are named using a UUID (Universal Unique Identifier). These numbers id
 
 UUIDs can be found/generated here: https://www.uuidgenerator.net/version4
 
-# Example of Correctly Formatted Simulation
+# Example of a Correctly Formatted Simulation
 \{  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"active": true,  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"author": "Shaham Noorani",  
