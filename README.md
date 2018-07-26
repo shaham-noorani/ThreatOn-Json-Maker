@@ -12,7 +12,7 @@ UUIDs can be found/generated here: https://www.uuidgenerator.net/version4
 
 # Example of Correctly Formatted Simulation
 \{  
-  *\"active": true,  
+  * \"active": true,  
   \"author": "Shaham Noorani",  
   \"name": "Remote System Discovery - Ping",  
   \"link": "https://github.com/bhende1om/Windows-Ping-Test",  
