@@ -16,7 +16,7 @@
   "author": "Shaham Noorani",
   "license": "",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.8"
   },
   "dependencies": {
     "jsonfile": "^4.0.0",
